@@ -11,6 +11,18 @@ li {
     list-style-type: none;
 }
 
+section {
+    background-color: rgb(245, 245, 245)
+}
+
+/*
+LANDING PAGE
+*/
+
+#landing-page {
+    min-height: 100vh;
+}
+
 /*
 NAVIGATION
 */
@@ -22,6 +34,7 @@ nav {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    height: 100px;
 }
 
 #personal-logo {
@@ -43,4 +56,8 @@ nav {
     font-size: 16px;
     color: #242424;
     font-weight: 700;
+}
+
+.fa-circle-half-stroke {
+    font-size: 20px;
 }
